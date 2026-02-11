@@ -22,12 +22,12 @@ public class ClubMain {
 
         try {
             boolean r = clubService.bookCourtSlot(
-                    "MEMC1003",
-                    "B-2",
-                    "BADMINTON",
+                    "MEMC1001",
+                    "T-1",
+                    "TENNIS",
                      new Date(),
-                    "19:00",
-                    "20:00");
+                    "18:00",
+                    "19:00");
 
             System.out.println(r ? "BOOKING SUCCESS" : "BOOKING FAILED");
 
